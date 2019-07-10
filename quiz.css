@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+body {
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-image: url(bg.jpg);
+  background-size: 1095px 648px;
+  /* background-image: cover; */
+  margin: 0;
+}
+
+img {
+  opacity: 0.5;
+  position: absolute;
+}
+
+h1 {
+  font-weight: 300px;
+  margin: 0px;
+  padding: 20px;
+  font-size: 40px;
+  background-color: rgb(29, 156, 206);
+  opacity: 0.9;
+  color: #fff;
+}
+
+p{
+  margin: 0px;
+  background-color: rgb(29, 156, 206);
+  opacity: 0.9;
+  color: #fff;
+}
+
+
+.question {
+  font-size: 32px;
+  font-weight: 20px;
+  margin-bottom: 10px;
+  color: purple;
+}
+
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: rgb(29, 156, 206);
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #38a;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 100px;
+}
